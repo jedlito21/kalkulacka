@@ -65,7 +65,7 @@ nine.grid(row=4, column=2)
 minus = Button(okno, text="-", width=4, height=2)
 minus.grid(row=4, column=3)
 
-point = Button(okno, text=",", width=4, height=2)
+point = Button(okno, text=".", width=4, height=2)
 point.grid(row=5, column=0)
 
 times = Button(okno, text="*", width=4, height=2)
@@ -76,4 +76,6 @@ devide.grid(row=5, column=2)
 
 equals = Button(okno, text="=", width=4, height=2)
 equals.grid(row=5, column=3)
+
+
 okno.mainloop()
